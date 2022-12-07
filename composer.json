@@ -4,6 +4,8 @@
         "phpunit/phpunit": "^9.5",
         "composer/composer": "^2.4"
     },
+    "license": "ISC",
+    "description": "Aula CI/CD",
     "autoload": {
         "psr-4": {
             "Gonca\\TestProjectPhp\\": [
