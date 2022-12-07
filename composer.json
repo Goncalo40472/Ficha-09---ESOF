@@ -1,0 +1,16 @@
+{
+    "name": "gonca/test-project.php",
+    "require": {
+        "phpunit/phpunit": "^9.5",
+        "composer/composer": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gonca\\TestProjectPhp\\": [
+                "src/",
+                "tests"
+            ],
+            "PHPTDD\\": "../../../../../../../../../AppData/Local/Programs/Microsoft VS Code/tests/unit"
+        }
+    }
+}
